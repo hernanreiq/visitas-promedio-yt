@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 600px;
+    height: auto;
+}
+.datos {
+    background-color: rgb(0, 247, 255);
+    text-align: center;
+}
+input {
+    margin-top: 15px;
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    font-size: 25px;
+    color: red;
+}
+button, .button {
+    margin: 10px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 255, 0);
+    background-color: black;
+    border-radius: 25px;
+    border: solid 2px rgb(0, 255, 0);
+}
+button:hover, .button:hover {
+    color: black;
+    background-color: rgb(0, 255, 0);
+    border: solid 2px black;
+}
+a {
+    text-decoration: none;
+}
+
+.TITULO {
+    text-align: center;
+    background-color: gold;
+    font-weight: bold;
+    padding: 3px 0px;
+    font-size: 18px;
+}
+.INFORMACION {
+    text-align: center;
+    background-color: rgb(255, 166, 0);
+    font-weight: bold;
+    padding: 3px 0px;
+    font-size: 18px;
+}
+.DETALLES {
+    text-align: justify;
+    padding: 10px 15px;
+}
+.resultado {
+    width: 100%;
+    text-align: center;
+    height: 75px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    line-height: 75px;
+    background-color: rgb(0, 182, 0);
+}
+.porciento {
+    color: blue;
+}
